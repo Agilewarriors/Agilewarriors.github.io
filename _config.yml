@@ -8,6 +8,7 @@ google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
 
+<<<<<<< HEAD
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
 description: Product marketing template for Jekyll.
@@ -19,6 +20,8 @@ social:
   name: Hydra Template
   links:
     - https://github.com/CloudCannon/hydra-jekyll-template
+=======
+>>>>>>> 3aeefe0 (Moved CSS Config to template.yml)
 
 # -----
 # Build
