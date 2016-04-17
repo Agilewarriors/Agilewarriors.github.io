@@ -266,7 +266,11 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
+<<<<<<< HEAD
     background-image: url(../img/header-bg.jpg);
+=======
+    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+>>>>>>> 6945f07 (fix unsuccesful merge)
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
