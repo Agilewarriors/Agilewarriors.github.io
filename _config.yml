@@ -9,10 +9,12 @@ description: "Write an awesome description for your new site here. You can edit 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
+- name: Faustin DEMESSE
+  pic: Faustin
+  position: Product Owner
   social:
+  - title: linkedin
+      url: https://www.linkedin.com/in/faustin-demesse-bb21a7155/
     - title: twitter
       url: #
     - title: facebook
