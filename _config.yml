@@ -2,47 +2,47 @@ url: https://Agilewarriors.github.io
 baseurl: /
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Agile Warriors
+email: agileworrios1@gmail.com  
+description: "The Glappy Agile Warriors Portfolio Website"
 
 
 # Team names, titles and social links
 people:
-- name: Faustin DEMESSE
-  pic: Faustin
-  position: Product Owner
-  social:
-  - title: linkedin
-      url: https://www.linkedin.com/in/faustin-demesse-bb21a7155/
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
+  - name: Faustin DEMESSE
+    pic: Faustin
+    position: Product Owner
+    social:
     - title: linkedin
-      url: #
+        url: https://www.linkedin.com/in/faustin-demesse-bb21a7155/
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: stack-overflow
+        url: #
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+  - name: Larry Parker
+    pic: 2
+    position: Lead Marketer
+    social:
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: linkedin
+        url: #
+
+  - name: Diana Petersen
+    pic: 3
+    position: Lead Developer
+    social:
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: google-plus
+        url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -51,7 +51,7 @@ social:
   - title: facebook
     url:
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
+    url: 
   - title: bitbucket 
     url: http://bitbucket.org/jekyll
   - title: github
