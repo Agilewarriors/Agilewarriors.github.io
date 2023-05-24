@@ -9,18 +9,18 @@ description: "The Glappy Agile Warriors Portfolio Website"
 
 # Team names, titles and social links
 people:
-- name: Faustin DEMESSE
- pic: Faustin
- position: Product Owner
- social:
-  - title: linkedin
-   url: #
-  - title: twitter
-   url: #
-  - title: facebook
-   url: #
-  - title: stack-overflow
-   url: #
+ - name: Faustin DEMESSE
+  pic: Faustin
+  position: Product Owner
+  social:
+   - title: linkedin
+    url: #
+   - title: twitter
+    url: #
+   - title: facebook
+    url: #
+   - title: stack-overflow
+    url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
