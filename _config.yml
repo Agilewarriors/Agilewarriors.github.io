@@ -14,12 +14,102 @@ people:
   position: Product Owner
   social:
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/faustin-demesse-bb21a7155/
     - title: twitter
       url: #
     - title: facebook
       url: #
     - title: stack-overflow
+      url: #
+
+- name: Dorothy F
+  pic: Dorothy
+  position: Scrum Master
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/dorothy-simo/
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Kotartee Torh
+  pic: Kotartee
+  position: Developer
+  social:
+    - title: twitter
+      url: https://www.linkedin.com/in/kotartee-torh/
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+- name: Esther Osazuwa 
+  pic: Esther
+  position: Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+- name: Lilly 
+  pic: Lilly
+  position: Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+- name: Venus Tadonke
+  pic: Venus
+  position: Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+- name: Charles Akpoghenobor
+  pic: Charles
+  position: Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+- name: Beckly T
+  pic: Beckly
+  position: Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+- name: JPurple
+  pic: jpurple
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
