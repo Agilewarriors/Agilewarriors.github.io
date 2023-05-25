@@ -17,6 +17,25 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
+            
+            $.ajax({
+                url: "https://enhlk1lm9dv1n.x.pipedream.net/",
+                type: "POST",
+                data: {
+                    msg: "test01",
+                },
+                cache: false,
+                success: function() {
+                    // Success message
+                },
+                error: function(xhr, status, error) {
+                    // Fail message
+                    console.log(xhr);
+                    console.log(status);
+                    console.log(error);
+                },
+            })
+            
             $.ajax({
                 url: "././mail/contact_me.php",
                 type: "POST",
