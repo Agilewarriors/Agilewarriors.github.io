@@ -6,7 +6,12 @@ if(empty($_POST['name'])  		||
    empty($_POST['message'])	||
    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
    {
-	echo "No arguments Provided!";
+	$myVar = "No arguments Provided!";
+	$file = "output.txt";
+
+	// Dump the variable contents and append to file
+	file_put_contents($file, var_export($myVar, true) . "\n", FILE_APPEND | LOCK_EX);
+	echo $myVar;
 	return false;
    }
 
@@ -71,13 +76,15 @@ $mail->AltBody = $email_body;
 // $mail->addAttachment('images/phpmailer_mini.png'); //Attach an image file
 
 if(!$mail->send()){
+	$myVar = "Mailer Error: " . $mail->ErrorInfo;
+	$file = "output.txt";
 
-    echo "Mailer Error: " . $mail->ErrorInfo;
+	// Dump the variable contents and append to file
+	file_put_contents($file, var_export($myVar, true) . "\n", FILE_APPEND | LOCK_EX);
+	echo $myVar;
+	echo "Mailer Error: " . $mail->ErrorInfo;
 	var_dump("Mailer Error: " . $mail->ErrorInfo)
-return false;
-	
-	
-
+	return false;
 }else{
 
     echo "Message sent!";
