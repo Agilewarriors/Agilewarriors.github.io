@@ -42,6 +42,8 @@ $mail = new PHPMailer;
 
 $mail->isSMTP(); 
 
+$mail->Mailer = "smtp";
+
 $mail->SMTPDebug = 2; // 0 = off (for production use) - 1 = client messages - 2 = client and server messages
 
 $mail->Host = "smtp.gmail.com"; // use $mail->Host = gethostbyname('smtp.gmail.com'); // if your network does not support SMTP over IPv6
@@ -71,6 +73,7 @@ $mail->AltBody = $email_body;
 if(!$mail->send()){
 
     echo "Mailer Error: " . $mail->ErrorInfo;
+	var_dump($mail)
 return false;
 	
 	
