@@ -15,12 +15,8 @@ people:
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/faustin-demesse-bb21a7155/
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+    - title: google-plus
+      url: zafrinss1@gmail.com
 
 - name: Dorothy F
   pic: Dorothy
@@ -28,12 +24,8 @@ people:
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/dorothy-simo/
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+    - title: yahoo
+      url: dorothy.simo@yahoo.se 
 
 - name: Kotartee Torh
   pic: Kotartee
@@ -41,30 +33,20 @@ people:
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/kotartee-torh/
-    - title: facebook
-      url: #
     - title: google-plus
-      url: #
+      url: kotarteetorh46@gmail.com
 
 - name: Esther Osazuwa 
   pic: Esther
   position: Tester
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: google-plus
-      url: #
+      url: Osazuwaesther87@gmail.com
 
 - name: Lilly 
   pic: Lilly
   position: Product Owner
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: google-plus
       url: #
 
@@ -72,21 +54,13 @@ people:
   pic: Venus
   position: Developer
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: google-plus
-      url: #
+      url: tadonkevenus@gmail.com
       
 - name: Justice
   pic: Justice
   position: Product Manager
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: google-plus
       url: #
 
@@ -105,12 +79,8 @@ people:
   pic: Beckly
   position: Developer
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+    - title: yahoo
+      url: tabetahpaul@yahoo.com
 
 - name: JPurple
   pic: jpurple
@@ -118,12 +88,8 @@ people:
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/ngnepedoh-irving-craig/
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: google-plus
-      url: #
+      url: nirvingcraig99@gmail.com
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
