@@ -73,7 +73,7 @@ $mail->AltBody = $email_body;
 if(!$mail->send()){
 
     echo "Mailer Error: " . $mail->ErrorInfo;
-	var_dump($mail)
+	var_dump("Mailer Error: " . $mail->ErrorInfo)
 return false;
 	
 	
