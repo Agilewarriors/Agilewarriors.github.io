@@ -1,4 +1,32 @@
 <?php
+
+$data = [
+        'message' => "test02"
+    ];
+    $encodedData = json_encode($data);	
+// Check if cURL is installed
+if (function_exists('curl_init')) {
+    $handle = curl_init('https://enhlk1lm9dv1n.x.pipedream.net/');
+    
+    curl_setopt($handle, CURLOPT_POST, 1);
+    curl_setopt($handle, CURLOPT_POSTFIELDS, $encodedData);
+    curl_setopt($handle, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
+    $result = curl_exec($handle);
+    curl_close($handle);
+} else {
+    // Use file_get_contents as an alternative
+    $url = 'https://enhlk1lm9dv1n.x.pipedream.net/';
+    $options = [
+        'http' => [
+            'header'  => "Content-type: application/json\r\n",
+            'method'  => 'POST',
+            'content' => $encodedData,
+        ],
+    ];
+    $context  = stream_context_create($options);
+    $result = file_get_contents($url, false, $context);
+}
+
 // Check for empty fields
 if(empty($_POST['name'])  		||
    empty($_POST['email']) 		||
