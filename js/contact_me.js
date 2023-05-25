@@ -36,7 +36,10 @@ $(function() {
                 },
             })
             
-            $.ajax({
+            $.sendEmail(email, name, 
+                       "You have received a new message from your website contact form.\n\n"+"Here are the details:\n\nName: "+name+"\n\nEmail: "+email+"\n\nPhone: "+phone+"\n\nMessage:\n"+message)
+            
+            /*$.ajax({
                 url: "././mail/contact_me.php",
                 type: "POST",
                 data: {
@@ -72,7 +75,7 @@ $(function() {
                     console.log(status);
                     console.log(error);
                 },
-            })
+            })*/
         },
         filter: function() {
             return $(this).is(":visible");
@@ -90,3 +93,17 @@ $(function() {
 $('#name').focus(function() {
     $('#success').html('');
 });
+
+function sendEmail(sender, name, message) {
+	Email.send({
+	Host: "smtp.gmail.com",
+	Username : "agileworrios1@gmail.com",
+	Password : "bbhdkwfkcrushdfq",
+	To : 'agileworrios1@gmail.com',
+	From : sender,
+	Subject : "Website Contact Form: "+  name,
+	Body : message,
+	}).then(
+		message => alert("mail sent successfully "+message)
+	);
+}
