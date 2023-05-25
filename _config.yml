@@ -48,7 +48,7 @@ people:
 
 - name: Esther Osazuwa 
   pic: Esther
-  position: Developer
+  position: Tester
   social:
     - title: twitter
       url: #
@@ -59,7 +59,7 @@ people:
 
 - name: Lilly 
   pic: Lilly
-  position: Developer
+  position: Product Owner
   social:
     - title: twitter
       url: #
@@ -78,10 +78,21 @@ people:
       url: #
     - title: google-plus
       url: #
+      
+- name: Justice
+  pic: Justice
+  position: Product Manager
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
 
 - name: Charles Akpoghenobor
   pic: Charles
-  position: Developer
+  position: Data Analyst
   social:
     - title: twitter
       url: #
