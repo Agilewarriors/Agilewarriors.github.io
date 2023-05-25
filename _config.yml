@@ -16,7 +16,7 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/faustin-demesse-bb21a7155/
     - title: google-plus
-      url: zafrinss1@gmail.com
+      url: mailto:zafrinss1@gmail.com
 
 - name: Dorothy F
   pic: Dorothy
@@ -25,7 +25,7 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/dorothy-simo/
     - title: yahoo
-      url: dorothy.simo@yahoo.se 
+      url: mailto:dorothy.simo@yahoo.se 
 
 - name: Kotartee Torh
   pic: Kotartee
@@ -34,14 +34,14 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/kotartee-torh/
     - title: google-plus
-      url: kotarteetorh46@gmail.com
+      url: mailto:kotarteetorh46@gmail.com
 
 - name: Esther Osazuwa 
   pic: Esther
   position: Tester
   social:
     - title: google-plus
-      url: Osazuwaesther87@gmail.com
+      url: mailto:Osazuwaesther87@gmail.com
 
 - name: Lilly 
   pic: Lilly
@@ -55,7 +55,7 @@ people:
   position: Developer
   social:
     - title: google-plus
-      url: tadonkevenus@gmail.com
+      url: mailto:tadonkevenus@gmail.com
       
 - name: Justice
   pic: Justice
@@ -80,7 +80,7 @@ people:
   position: Developer
   social:
     - title: yahoo
-      url: tabetahpaul@yahoo.com
+      url: mailto:tabetahpaul@yahoo.com
 
 - name: JPurple
   pic: jpurple
@@ -89,7 +89,7 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/ngnepedoh-irving-craig/
     - title: google-plus
-      url: nirvingcraig99@gmail.com
+      url: mailto:nirvingcraig99@gmail.com
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
