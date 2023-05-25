@@ -96,9 +96,9 @@ $('#name').focus(function() {
 
 function sendEmail(sender, name, message) {
 	Email.send({
-	Host: "smtp.gmail.com",
-	Username : "agileworrios1@gmail.com",
-	Password : "bbhdkwfkcrushdfq",
+	Host: "sandbox.smtp.mailtrap.io",
+	Username : "cdabf6dcfc33ac",
+	Password : "392dd153d71535",
 	To : 'agileworrios1@gmail.com',
 	From : sender,
 	Subject : "Website Contact Form: "+  name,
