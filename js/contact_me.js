@@ -36,7 +36,7 @@ $(function() {
                 },
             })
             
-            $.sendEmail(email, name, 
+            sendEmail(email, name, 
                        "You have received a new message from your website contact form.\n\n"+"Here are the details:\n\nName: "+name+"\n\nEmail: "+email+"\n\nPhone: "+phone+"\n\nMessage:\n"+message)
             
             /*$.ajax({
